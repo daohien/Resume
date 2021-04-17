@@ -216,20 +216,6 @@ a:hover {
   line-height: 50px;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
-  position: relative;
-}
-
-.slider .left .info-wrap .button::after {
-  content: " ";
-  position: absolute;
-  top: 0;
-  left: -2px;
-  width: 0px;
-  height: 50px;
-  border-radius: 50px;
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
-  z-index: -1;
 }
 
 .slider .left .info-wrap .button .simple-link {
@@ -238,8 +224,7 @@ a:hover {
   font-size: 15px;
 }
 
-.slider .left .info-wrap .button:hover::after {
-  width: 160px;
+.slider .left .info-wrap .button:hover {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
   background-color: #ff4a57;
@@ -1076,6 +1061,9 @@ footer .copy-right span {
   }
   .slider .right {
     width: 100%;
+  }
+  .education .list-education .timeline-event:hover .timeline-event-date {
+    left: -50px;
   }
   .skill .skill-wrap .item {
     width: 50%;

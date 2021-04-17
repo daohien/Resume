@@ -167,29 +167,14 @@ a {
                 text-align: center;
                 line-height: 50px;
                 transition: all .3s ease;
-                position: relative;
-                &::after {
-                    content: " ";
-                    position: absolute;
-                    top: 0;
-                    left: -2px;
-                    width: 0px;
-                    height: 50px;
-                    border-radius: 50px;
-                    transition: all .3s ease;
-                    z-index: -1;
-                }
                 .simple-link {
                     text-align: center;
                     color: #fff;
                     font-size: 15px;
                 }
                 &:hover {
-                    &::after {
-                        width: 160px;
-                        transition: all .3s ease;
-                        background-color: #ff4a57;
-                    }
+                    transition: all .3s ease;
+                    background-color: #ff4a57;
                 }
             }
         }
@@ -970,6 +955,17 @@ footer {
         }
         .right {
             width: 100%;
+        }
+    }
+    .education {
+        .list-education {
+            .timeline-event {
+                &:hover {
+                    .timeline-event-date {
+                        left: -50px;
+                    }
+                }           
+            }
         }
     }
     .skill {
