@@ -960,7 +960,7 @@ footer .copy-right span {
   }
   .header {
     opacity: 1;
-    position: fixed;
+    position: none;
   }
   .header.active {
     opacity: 1;
@@ -1072,9 +1072,14 @@ footer .copy-right span {
   }
   .slider .left {
     width: 100%;
+    margin: auto 0;
   }
   .slider .right {
     width: 100%;
+  }
+  .skill .skill-wrap .item {
+    width: 50%;
+    padding-left: 20px;
   }
   .contact .contact-wrap .list-contact .item {
     width: 100%;
@@ -1125,10 +1130,6 @@ footer .copy-right span {
   }
   .project .thumbnail-wrap .item:nth-child(2) {
     margin: 20px 0;
-  }
-  .skill .skill-wrap .item {
-    width: 50%;
-    padding-left: 60px;
   }
   .favorite .left {
     width: 100%;

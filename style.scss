@@ -861,7 +861,7 @@ footer {
     //header 
     .header {
         opacity: 1;
-        position: fixed;
+        position: none;
         &.active {
             opacity: 1;
         }
@@ -966,9 +966,18 @@ footer {
     .slider {
         .left {
             width: 100%;
+            margin: auto 0;
         }
         .right {
             width: 100%;
+        }
+    }
+    .skill {
+        .skill-wrap {
+            .item {
+                width: 50%;
+                padding-left: 20px;
+            }
         }
     }
     .contact {
@@ -1041,14 +1050,6 @@ footer {
                 &:nth-child(2) {
                     margin: 20px 0;
                 }
-            }
-        }
-    }
-    .skill {
-        .skill-wrap {
-            .item {
-                width: 50%;
-                padding-left: 60px;
             }
         }
     }
