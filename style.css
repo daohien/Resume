@@ -233,6 +233,11 @@ a:hover {
 .slider .right {
   width: 50%;
   margin: auto 0;
+  overflow: hidden;
+}
+
+.slider .right .thumbnail {
+  margin: -100px auto 0;
 }
 
 .about-us {
@@ -257,6 +262,7 @@ a:hover {
 
 .about-us .about-wrap .thumbnail {
   width: 50%;
+  margin-top: -100px;
 }
 
 .about-us .about-wrap .info-wrap {
@@ -455,7 +461,7 @@ a:hover {
 }
 
 .project .thumbnail-wrap .item {
-  width: 32%;
+  width: 49%;
   height: 100%;
   position: relative;
   -webkit-transition: .3s ease;
@@ -1060,6 +1066,9 @@ footer .copy-right span {
     margin: auto 0;
   }
   .slider .right {
+    width: 100%;
+  }
+  .about-wrap .thumbnail img {
     width: 100%;
   }
   .education .list-education .timeline-event:hover .timeline-event-date {
