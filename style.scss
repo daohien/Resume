@@ -850,7 +850,7 @@ footer {
     h2 {
         font-size: 42px;
     }
-    //header 
+    //header .header .navigation .menu.active
     .header {
         opacity: 1;
         position: none;
@@ -912,7 +912,7 @@ footer {
                     }
                 }
                 &.active {
-                    width: 100%;
+                    width: 80%;
                     opacity: 1;
                     transition: all .3s ease;
                     .list-item {
@@ -966,10 +966,8 @@ footer {
     }
     .about-wrap {
         .thumbnail {
-
             img {
-                width: 100%;
-     
+               width: 100%;
             }
         }
     }
