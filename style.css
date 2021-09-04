@@ -29,8 +29,17 @@ li {
   list-style: none;
 }
 
+a {
+  color: #fff;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
 a:hover {
   text-decoration: none;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  color: #ff4a57;
 }
 
 .wrapper {
@@ -466,6 +475,11 @@ a:hover {
   position: relative;
   -webkit-transition: .3s ease;
   transition: .3s ease;
+  margin-bottom: 30px;
+}
+
+.project .thumbnail-wrap .item:last-child {
+  margin-bottom: 0;
 }
 
 .project .thumbnail-wrap .item .thumbnail {
@@ -1016,7 +1030,7 @@ footer .copy-right span {
     color: #fff;
   }
   .header .navigation .menu.active {
-    width: 100%;
+    width: 80%;
     opacity: 1;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
@@ -1101,6 +1115,9 @@ footer .copy-right span {
   .slider .left .info-wrap .desc p {
     font-size: 18px;
   }
+  .slider .left .info-wrap .title {
+    font-size: 58px;
+  }
   .about-us .about-wrap .thumbnail {
     width: 100%;
   }
@@ -1134,6 +1151,9 @@ footer .copy-right span {
   .favorite .right {
     width: 100%;
     margin-top: 50px;
+  }
+  .favorite .right .list-favorite .item {
+    padding: 20px 0;
   }
   .contact .contact-wrap .list-contact .item {
     width: 100%;
